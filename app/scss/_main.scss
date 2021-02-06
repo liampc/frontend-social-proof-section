@@ -72,6 +72,25 @@ header {
 .ratings {
 
 
+    @include breakpoint-up('large'){
+        display: flex;
+        flex-direction: column;
+
+        div:first-of-type{
+            align-self: flex-start;
+        }
+
+        div:nth-child(2){
+            align-self: center;
+        }
+
+        div:last-child {
+            align-self: flex-end;
+           
+        }
+
+    }
+    
 
     &-card {
         background-color: $LightGrayishMagenta;
@@ -79,6 +98,18 @@ header {
         display: block;
         padding: 1rem;
         border-radius: 10px;
+
+        @include breakpoint-up('large'){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 27.9375rem;
+            min-height: 3.5rem;
+            padding:0;
+        }
+
+        
     }
 
     img {
@@ -95,9 +126,10 @@ header {
 
     & > * {
         margin-top: 0;
-        margin-bottom:1rem;
-        
+        margin-bottom: 1rem;
     }
+
+
 }
 
 
