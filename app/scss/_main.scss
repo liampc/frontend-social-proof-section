@@ -29,9 +29,21 @@ body {
     }
 }
 
-main {
+.container {
     margin: 5.125rem 1.375rem;
+    
+    @include breakpoint-up('large'){
+        max-width: 69.5625rem;
+        margin: 7.875rem auto;
+    }
 
+}
+
+.top {
+    @include breakpoint-up('large'){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 header {

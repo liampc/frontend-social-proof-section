@@ -30,8 +30,24 @@ body {
   }
 }
 
-main {
+.container {
   margin: 5.125rem 1.375rem;
+}
+
+@media (min-width: 64em) {
+  .container {
+    max-width: 69.5625rem;
+    margin: 7.875rem auto;
+  }
+}
+
+@media (min-width: 64em) {
+  .top {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 
 header {
