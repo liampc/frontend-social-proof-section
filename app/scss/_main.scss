@@ -1,3 +1,5 @@
+//globals
+
 html {
     font-size: 100%;
     box-sizing: border-box;
@@ -12,4 +14,18 @@ body {
     padding: 0;
     font-family: $font;
     line-height: 1.5;
+    min-height: 100vh;
+    background: url('../../images/bg-pattern-top-mobile.svg'), $White;
+    background-repeat: no-repeat;
+    background-position: center top, center;
 }
+
+main {
+
+}
+
+
+// main
+
+
+

@@ -14,5 +14,9 @@ body {
   padding: 0;
   font-family: "Spartan", sans-serif;
   line-height: 1.5;
+  min-height: 100vh;
+  background: url("../../images/bg-pattern-top-mobile.svg"), white;
+  background-repeat: no-repeat;
+  background-position: center top, center;
 }
 /*# sourceMappingURL=style.css.map */
