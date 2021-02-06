@@ -56,6 +56,13 @@ header {
   font-size: 1.1875rem;
 }
 
+@media (min-width: 64em) {
+  header {
+    text-align: left;
+    width: 27.0625rem;
+  }
+}
+
 header h1 {
   color: #502050;
   font-size: 2.125rem;

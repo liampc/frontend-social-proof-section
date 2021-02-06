@@ -50,6 +50,11 @@ header {
     text-align: center;
     color: $DarkGrayishMagenta;
     font-size: 1.1875rem;
+
+    @include breakpoint-up('large'){
+        text-align: left;
+        width: 27.0625rem;
+    }
     
 
     h1 {
