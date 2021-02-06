@@ -17,8 +17,17 @@ body {
   min-height: 100vh;
   background: url("../../images/bg-pattern-top-mobile.svg"), white;
   background-size: 140%, cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
   background-position: center top, center;
+}
+
+@media (min-width: 64em) {
+  body {
+    background: url(../../images/bg-pattern-top-desktop.svg), url(../../images/bg-pattern-bottom-desktop.svg), white;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 40%, 85%;
+  }
 }
 
 main {
