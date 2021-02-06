@@ -27,22 +27,26 @@ body {
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: 40%, 85%;
+    overflow-y: hidden;
   }
 }
 
 .container {
   margin: 5.125rem 1.375rem;
+  display: -ms-grid;
+  display: grid;
 }
 
 @media (min-width: 64em) {
   .container {
     max-width: 69.5625rem;
-    margin: 7.875rem auto;
+    margin: 7.875rem auto 0 auto;
   }
 }
 
 @media (min-width: 64em) {
   .top {
+    margin-bottom: 4.8125rem;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
@@ -81,6 +85,9 @@ header > * {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .ratings div:first-of-type {
     -ms-flex-item-align: start;
