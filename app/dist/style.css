@@ -48,4 +48,29 @@ header h1 {
 header > * {
   margin-bottom: 1.5rem;
 }
+
+.ratings-card {
+  background-color: #f7f2f7;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.ratings img {
+  width: 7.5rem;
+  height: 1.125rem;
+}
+
+.ratings p {
+  margin-bottom: 0;
+  color: #502050;
+  font-weight: 700;
+  font-size: 0.8125rem;
+}
+
+.ratings > * {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
