@@ -84,8 +84,44 @@ header {
 }
 
 
+.reviews {
 
-// main
+    
+    &-card {
+        background-color: $VeryDarkMagenta;
+        border-radius: 10px;
+        padding: 2.5rem 2.06rem;
+        color: $White;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        float: left;
+        border-radius: 50%;
+        height: 2.6875rem;
+        width: 2.6875rem;
+        margin-right: 1.5rem;
+    }
+
+    &-name {
+        margin-bottom: 1.875rem;
+        
+
+        p:first-of-type {
+            font-weight: $font-bold;
+            margin: 0;
+        }
+    
+        p:last-of-type {
+            color: $SoftPink;
+            margin: 0;
+
+        }
+
+    }
+    
+
+}
 
 
 

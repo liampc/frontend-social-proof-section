@@ -73,4 +73,34 @@ header > * {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+.reviews-card {
+  background-color: #502050;
+  border-radius: 10px;
+  padding: 2.5rem 2.06rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.reviews img {
+  float: left;
+  border-radius: 50%;
+  height: 2.6875rem;
+  width: 2.6875rem;
+  margin-right: 1.5rem;
+}
+
+.reviews-name {
+  margin-bottom: 1.875rem;
+}
+
+.reviews-name p:first-of-type {
+  font-weight: 700;
+  margin: 0;
+}
+
+.reviews-name p:last-of-type {
+  color: #ee68a4;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
