@@ -21,10 +21,10 @@ body {
     font-family: $font;
     line-height: 1.5;
     min-height: 100vh;
-    background: url('../../images/bg-pattern-top-mobile.svg'), $White;
-    background-size: 140%, cover;
+    background: url('../../images/bg-pattern-top-mobile.svg'),url(../../images/bg-pattern-bottom-mobile.svg) $White;
+    background-size: 140%, 115%;
     background-repeat: no-repeat, no-repeat;
-    background-position: center top, center;
+    background-position: center top, right bottom;
 
     @include breakpoint-up('large'){
         background: url(../../images/bg-pattern-top-desktop.svg), url(../../images/bg-pattern-bottom-desktop.svg), $White;
@@ -72,6 +72,7 @@ header {
 
         @include breakpoint-up('large'){
             font-size: 3.1875rem;
+            line-height: 1;
         }
     }
 
