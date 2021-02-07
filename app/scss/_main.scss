@@ -1,5 +1,10 @@
 //globals
 
+// ! change height of h1 in desktop
+// ! change all width and height to min max
+// ! check background image in desktop
+
+
 html {
     font-size: 100%;
     box-sizing: border-box;
@@ -64,6 +69,10 @@ header {
     h1 {
         color: $VeryDarkMagenta;
         font-size: 2.125rem;
+
+        @include breakpoint-up('large'){
+            font-size: 3.1875rem;
+        }
     }
 
     & > * {
