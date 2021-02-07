@@ -21,11 +21,16 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: center top, right bottom;
 
-    @include breakpoint-up('large'){
+    @include breakpoint-up('medium'){
         background: url(../../images/bg-pattern-top-desktop.svg), url(../../images/bg-pattern-bottom-desktop.svg), $White;
         background-position: left top, right bottom;
         background-repeat: no-repeat, no-repeat;
-        background-size: 44%, 81%;
+        background-size: 112%, 143%;
+    }
+
+
+    @include breakpoint-up('large'){
+        background-size: 44%, 86%;
         
     }
 }
@@ -50,11 +55,15 @@ body {
 }
 
 .top {
+
+    margin-bottom: 3.125rem;
+
     @include breakpoint-up('large'){
         margin-bottom: 4.8125rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    
 }
 
 header {

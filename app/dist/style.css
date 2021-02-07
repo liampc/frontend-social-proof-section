@@ -20,12 +20,18 @@ body {
   background-position: center top, right bottom;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   body {
     background: url(../../images/bg-pattern-top-desktop.svg), url(../../images/bg-pattern-bottom-desktop.svg), white;
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
-    background-size: 44%, 81%;
+    background-size: 112%, 143%;
+  }
+}
+
+@media (min-width: 64em) {
+  body {
+    background-size: 44%, 86%;
   }
 }
 
@@ -46,6 +52,10 @@ body {
   .container {
     max-width: 69.5625rem;
   }
+}
+
+.top {
+  margin-bottom: 3.125rem;
 }
 
 @media (min-width: 64em) {
